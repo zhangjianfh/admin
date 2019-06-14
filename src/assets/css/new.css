@@ -1,0 +1,3 @@
+.newbox,.new-contents{position:relative; width:100%;}
+.newbox{position:relative; width:100%; left:0px; top:0px; background-color:#fff;}
+.new-contents{max-width:1000px;}

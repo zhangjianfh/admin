@@ -1,0 +1,71 @@
+html{ font-family:sans-serif; -webkit-text-size-adjust:100%; }
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{ display:block; }
+audio,canvas,progress,video{ display: inline-block; vertical-align:baseline; }
+audio:not([controls]){ display:none; height:0; }
+[hidden],template{ display:none; }
+a{ background:transparent; }
+a:active,a:hover { outline:0; }
+abbr[title]{ border-bottom:1px dotted; }
+b,strong{ font-weight:bold; }
+dfn{ font-style:italic; }
+h1{ font-size:2em; }
+mark{ color:#000; background:#ff0; }
+small{ font-size:80%; }
+sub,sup{ font-size:75%; line-height:0; position:relative; vertical-align:baseline; }
+sup{ top:-.5em; }
+sub{ bottom:-.25em; }
+img,i{vertical-align:middle;}
+img{ border:0;}
+svg:not(:root){ overflow:hidden; }
+figure{ margin:1em 40px; }
+hr{ box-sizing:content-box; height:0; }
+pre{ overflow:auto; }
+code,kbd,pre,samp{ font-family:monospace, monospace; font-size:1em; }
+button,input,optgroup,select,textarea{ font:inherit; margin:0; color:inherit; }
+button{ overflow:visible; }
+button,select{ text-transform:none; }
+button,html input[type='button'],input[type='reset'],input[type='submit']{ cursor:pointer; -webkit-appearance:button; }
+button[disabled],html input[disabled]{ cursor:default; }
+input{ line-height:normal; }
+input[type='checkbox'],input[type='radio']{ box-sizing:border-box; padding:0; }
+input[type='number']::-webkit-inner-spin-button, input[type='number']::-webkit-outer-spin-button{height:auto;}
+input[type='search']{ -webkit-box-sizing: content-box; box-sizing: content-box; -webkit-appearance:textfield; }
+input[type='search']::-webkit-search-cancel-button, input[type='search']::-webkit-search-decoration { -webkit-appearance:none; }
+fieldset{ margin:0 2px; padding:.35em .625em .75em; border:1px solid #c0c0c0; }
+legend{ padding:0; border:0;}
+textarea{ overflow:auto; }
+optgroup{ font-weight:bold; }
+table{ border-spacing:0; border-collapse:collapse; }
+td,th{ padding:0; }
+ul{list-style:none;}
+*{margin:0px; padding:0px; /*-webkit-box-sizing:border-box; box-sizing: border-box; -webkit-user-select:none; outline:none;*/
+  -webkit-tap-highlight-color:transparent; -webkit-tap-highlight-color:transparent; -webkit-backface-visibility:hidden; box-sizing:border-box; -webkit-overflow-scrolling:touch;}
+body{ font-family: "Arial","Microsoft YaHei", sans-serif; -webkit-overflow-scrolling:touch; background-color:#e8ebf0;}
+a{ text-decoration:none; color:#007aff;} a:active{ color:#0062cc;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {-webkit-appearance:none;}
+input[type="number"]{-moz-appearance:textfield;}
+
+html,body,#app{position:relative; width:100%; height:100%; overflow-x:hidden;}
+body{position:fixed; top:0px; left:0px; width:100%; height:100%; overflow:hidden;}
+
+header.headers{position:relative; width:100%; display:block; height:50px; overflow:hidden; z-index:3;}
+a.headers-left{height:100%; position:relative; display:flex; align-items:center; justify-content:center; float:left; width:200px; background-color:#1f2e54;
+  color:#fff; font-size:16px; font-weight:500; transition:width .3s; white-space:nowrap; overflow:hidden;}
+a.headers-left img{height:30px;}
+nav.headers-right{height:100%; margin-left:200px; background-color:#fff; transition:margin-left .3s; border-bottom:1px solid #dadfe9; display:flex; align-items:center; justify-content:space-between;}
+.menu-switch img{height:50px; transition:transform .5s;}
+.menuclosed{transform:scaleX(-1);}
+
+/*左边导航颜色在此处改*/
+aside.nav{position:absolute; left:0; top:0; padding-top:60px; height:100%; width:200px; background-color:#1f2e54; z-index:2; white-space:nowrap; transition:width .3s;}
+aside.nav>ul>li{padding:10px; padding-left:15px;}
+
+.module,.content{position:relative; width:100%;}
+.middle{position:relative; height:calc(100% - 50px); margin-left:200px; transition:margin-left .3s;}
+.container{position:absolute; left:0px; top:0px; width:100%; height:100%; padding:10px; overflow-y:auto;}
+.module-name{margin-bottom:10px;}
+.content{ background-color:#fff; padding:10px; border-radius:4px;}
+
+.closeWidth{width:50px !important;}
+.closeMargin{margin-left:50px !important;}
